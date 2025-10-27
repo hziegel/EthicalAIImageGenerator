@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (if you don't want to push large datasets)
+*.csv
+*.zip
+*.h5
+*.pkl
+*.pickle
+data/
+datasets/
+pistachio_256x256/
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.pb
+models/
+checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Google Colab
+sample_data/
+
+# Image files and junk
+Images/Training/
+Images/Output/Temp/
+Docs/Notes.gdoc
+Git_prompts.ipynb
